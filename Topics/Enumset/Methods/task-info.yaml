@@ -1,0 +1,20 @@
+type: matching
+captions:
+  - EnumSet.allOf(Status.class)
+  - "EnumSet.complementOf(EnumSet.of(Status.VERIFIED, Status.PROCESSING))"
+  - EnumSet.noneOf(Status.class)
+options:
+  - "[]"
+  - "[RECEIVED, VERIFIED, PROCESSING, DISPATCHED]"
+  - "[RECEIVED, DISPATCHED]"
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19798#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
